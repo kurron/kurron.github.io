@@ -1,11 +1,13 @@
 header {
     background: red;
     padding: 10px;
+    margin: 5px;
 }
 
 body {
     background: blue;
     padding: 10px;
+    margin: 5px;
     /*
     font-family: 'Droid Sans', sans-serif;
     */
@@ -14,11 +16,13 @@ body {
 main {
     background: white;
     padding: 10px;
+    margin: 5px;
 }
 
 footer {
     background: green;
     padding: 10px;
+    margin: 5px;
 }
 
 .buzzwords {
