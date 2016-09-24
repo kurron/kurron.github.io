@@ -1,5 +1,4 @@
 header {
-    background: lightyellow;
     padding: 5px;
     margin: 5px;
     text-align: center;
@@ -7,7 +6,7 @@ header {
 }
 
 body {
-    background: lightyellow;
+    background: lightgoldenrodyellow;
     padding: 5px;
     margin: 5px;
     font-family: 'PT Sans', sans-serif;
@@ -19,7 +18,6 @@ main {
 }
 
 footer {
-    background: lightyellow;
     padding: 5px;
     margin: 5px;
     font-family: 'PT Sans', sans-serif;
@@ -31,12 +29,12 @@ footer {
 }
 
 .job {
-    background: lavender;
     margin-bottom: 10px;
 }
 
 .title {
-    background: yellow;
+    font-style: italic;
+    margin-top: 5px;
 }
 
 .education {
@@ -46,7 +44,19 @@ footer {
 .certification {
     margin-bottom: 10px;
 }
-
 .name {
-    font-size: x-large;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.section {
+    font-weight: bold;
+}
+
+.company {
+    font-weight: bold;
+}
+
+.duration {
+    font-style: italic;
 }
