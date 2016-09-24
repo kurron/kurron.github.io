@@ -1,12 +1,10 @@
 header {
     background: red;
-    border: solid black;
     padding: 10px;
 }
 
 body {
     background: blue;
-    border: solid black;
     padding: 10px;
     /*
     font-family: 'Droid Sans', sans-serif;
@@ -15,37 +13,30 @@ body {
 
 main {
     background: white;
-    border: solid black;
     padding: 10px;
 }
 
 footer {
     background: green;
-    border: solid black;
     padding: 10px;
 }
 
 .buzzwords {
     background: tan;
-    border: solid black;
 }
 
 .job {
     background: lavender;
-    border: solid black;
 }
 
 .title {
     background: yellow;
-    border: solid black;
 }
 
 .education {
     background: seagreen;
-    border: solid black;
 }
 
 .certification {
     background: violet;
-    border: solid black;
 }
