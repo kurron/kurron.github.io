@@ -1,0 +1,62 @@
+header {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    padding: 5px;
+    margin: 5px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+main {
+    padding: 5px;
+    margin: 5px;
+}
+
+footer {
+    padding: 5px;
+    margin: 5px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.buzzwords {
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.job {
+    margin-bottom: 10px;
+}
+
+.title {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.education {
+    margin-bottom: 10px;
+}
+
+.certification {
+    margin-bottom: 10px;
+}
+.name {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.section {
+    font-weight: bold;
+}
+
+.company {
+    font-weight: bold;
+}
+
+.experience {
+    padding-left: 15px;
+}
