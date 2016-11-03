@@ -1,7 +1,8 @@
+* http://www.w3schools.com/bootstrap/
 * https://designschool.canva.com/blog/website-color-schemes/
 * FRESH: #F7F5E6
 * VERMILLION: #333A56
 * SUNSHINE: #52658F
-* CLEAN: E8E8E8
+* CLEAN: #E8E8E8
 
 https://bootstrapbay.com/blog/customize-bootstrap/

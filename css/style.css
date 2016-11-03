@@ -1,18 +1,21 @@
 header {
     text-align: center;
     font-family: 'PT Sans', sans-serif;
+    background: #F7F5E6;
 }
 
 body {
     font-family: 'PT Sans', sans-serif;
+    background: #F7F5E6;
 }
 
 main {
+    background: #F7F5E6;
 }
 
 footer {
     font-family: 'PT Sans', sans-serif;
-    text-align: center;
+    background: #F7F5E6;
 }
 
 .buzzwords {
