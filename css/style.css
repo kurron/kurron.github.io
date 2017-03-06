@@ -1,0 +1,48 @@
+header {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+main {
+}
+
+footer {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.buzzwords {
+    font-size: larger;
+}
+
+.job {
+}
+
+.title {
+    font-style: italic;
+}
+
+.education {
+}
+
+.certification {
+}
+
+.name {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.section {
+    font-weight: bold;
+}
+
+.company {
+    font-weight: bold;
+}
+
+.experience {
+}
