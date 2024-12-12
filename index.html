@@ -61,7 +61,13 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Senior Software Developer</div>
                     <div class="panel-body">
-                        <p class="experience">Designed and implemented AWS-based solutions using a variety of technologies including Amazon EC2 Container Service, AWS Lambda, Elasticsearch, Kinesis and DynamoDB.  Solutions coded in Java and Kotlin. Manged the cloud infrastructure via Terraform.  Non-cloud projects leveraged Spring Boot, Spring Batch, Spring for Apache Pulsar and Spring Data running on Kubernetes.</p>
+                        <p class="experience">Designed and implemented an asset management pipeline written in Java and deployed to Amazon ECS. AWS Lambda, SQS/SNS, DynamoDB, S3, Rekognition, CloudWatch Elasticsearch and Snowflake were used to analyze and process the assets. Shopping site used the service, requiring low latency responses.
+                            Infrastructure was managed via Terraform, with test environments getting created and destroyed on-demand. AWS CloudFormation was initially trialed but the enterprise wanted to settle on something more portable.
+                            On-premises projects were written in Java using Spring Boot as well as Spring Batch, Spring for Apache Pulsar, Spring Data JPA, Spring Data JDBC and Spring Vault with deployments to Kubernetes. Applications provided loyalty services to the shopping site, requiring low latency responses.
+                            Designed and implemented nightly batch processing systems, handling loyalty transactions from partners, using Spring Batch. Files were transferred via SFTP and processed, with a reconciliation report transferred back to the partner.
+                            On-premises applications used a combination of Oracle and PostgreSQL as persistent storage, accessed primarily via Spring Data JPA and Spring Data JDBC. Distributed caching was typically handled using Spring Data Redis.
+                            Responsible for the design and maintenance of REST APIs for synchronous processing and JSON messages for asynchronous processing, targeting Apache Pulsar.
+                            Testing was done using JUnit5, Spring and Cucumber, with reports going to the financial overwatch team for deployment approval.</p>
                     </div>
                 </div>
             </div>
@@ -75,15 +81,14 @@
                     <div class="panel-body">
                         <p class="experience">Architecting the switch from on-premises solutions to the Amazon cloud.
                             Focusing on combining Amazon EC2 Container Service with a CI/CD pipeline. Helped design and
-                            implement JVM-based solutions that leveraged a variety of forward thinking
+                            implement JVM-based solutions that leveraged a variety of forward-thinking
                             technologies, including Docker, MongoDB, RabbitMQ, Spring, REST and Hibernate. Worked on a reporting
-                            system the was faster and more accurate than its predecessor by utilizing event sourcing. Fostered
+                            system the was faster and more accurate than its predecessor by utilizing event sourcing and Groovy. Fostered
                             the switch to microservices-based solutions requiring experience in Docker, Consul and Terraform. Helped
                             to incubate the continuous delivery process through prototyping and design of the tool chain. Stressed
                             test-first coding style along with automated code inspection to maintain high code quality.
                             Promoted the use of virtualization, including development environments which streamlined the on-boarding
-                            process. Was part of
-                            a small team that wrote internal tools based on Flex and ActionScript.</p>
+                            process. Was part of a small team that wrote internal tools based on Flex and ActionScript.</p>
                     </div>
                 </div>
             </div>
